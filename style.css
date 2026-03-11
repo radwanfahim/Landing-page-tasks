@@ -559,6 +559,18 @@ body::before {
   position: relative;
 }
 
+/* ===== RESPONSIVE ===== */
+@media (max-width: 800px) {
+  .why__right {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .why__right {
+    display: none;
+  }
+}
+
 /* ATOM */
 
 .why__atom-container {
@@ -915,6 +927,18 @@ body::before {
   width: 100%;
   max-width: 360px;
   height: 340px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 800px) {
+  .approach__left {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .approach__left {
+    display: none;
+  }
 }
 
 .approach__img-bg {
